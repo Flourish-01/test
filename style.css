@@ -32,6 +32,7 @@ body{
     background-color: #d0d8fc;
     color: black;
     border: none;
+    width: 200px;
     padding: 8px 8px;
     font-size: 13px;
 }
