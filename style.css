@@ -106,8 +106,15 @@ small{
     margin-left: 80px;
    margin-top: 60px;
  }   
- .bobo{
-    width: 50px;
+ body{
+    overflow-x: hidden;
+ }
+ #bobo{
+    display: none;
+ }
+ .sam{
+    padding-left: 100px;
+
  }
  .Smart{
     font-size: 31px;
@@ -134,5 +141,8 @@ small{
     margin-left: -20%;
     padding-bottom: 100%;
     width: 400px;
+ }
+ .Smart{
+    padding-top: 20px;
  }
 }
