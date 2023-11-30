@@ -104,7 +104,11 @@ small{
 @media  screen and (max-width:475px) {
  .here{
     margin-left: 80px;
+   margin-top: 60px;
  }   
+ .bobo{
+    width: 50px;
+ }
  .Smart{
     font-size: 31px;
     margin-left: 20px;
@@ -119,11 +123,16 @@ small{
     margin-left: 10px;
  }
  .aja{
-    width: 400px;
-    margin-left: 150px;
+    width: 350px;
     padding-top: 30px;
+
  }
  .Rome{
     font-size: 30px;
+ }
+ .nice{
+    margin-left: -20%;
+    padding-bottom: 100%;
+    width: 400px;
  }
 }
