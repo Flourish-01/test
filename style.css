@@ -1,33 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     overflow-x: hidden;
 }
 
-.background{
-    background-color: #f7f8ff;
-    color: #454272;
+.edozzierContainer{
+   background-image: linear-gradient(
+    to left, 
+    #f6f8ff,
+    #e5e8fc 
+   );
+   
+    padding-top: 200px;
+   padding-bottom: 50px;
+   padding-left: 40px;
+    padding-right: 40px;
 }
-.door button{
+.edozHere{
+    background-color: #d0d8fc;
+}
+a{
+    text-decoration: none;
+}
+.blue{
+    color: #33396f;
+}
+.button1{
+    border-radius: 4px;
+    padding: 0.8rem 1rem;
+    background-color: #ffffff;
+    color: #161356;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+}
+.button1:hover{
+    background-color: #d0d8fc;
+}
+.free{
+    background-color: #0e0a47;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+.button2{
     background-color: #0e0a47;
     color: white;
-    padding: 12px;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
 }
-.sam ul li{
-    padding: 0 15px;
+.button2:hover{
+    background-color: #fe9a03;
 }
-.navbar{
-    justify-content: center;
-    align-content: center;
-}
-.door a{
-    align-content: center;
-    padding-top: 10px;
-}
-
 .here{
     background-color: #d0d8fc;
     color: black;
@@ -36,113 +61,96 @@ body{
     padding: 8px 8px;
     font-size: 13px;
 }
-.body{
-    background-color: #f7f8ff;
-    padding-top: 15%;
-    padding-bottom: 5%;
-}
-.Smart{
-    font-size: 50px;
-color: #1b1642;
-}
-.all{
-    padding-top: 20px;
-    font-size: 18px;
-    width: 450px;
-}
-.Solution{
-    font-size: 50px;
-    color: #1b1642;
-}
-.Request{
-    border: none;
-    padding: 10px 12px;
-    color: #1b1642;
-background-color: white;
-font-weight: 600;
-border-radius: 5px;
-}
-.Request:hover {
-    background-color: #d0d8fc ;
-    transition: 0.5;
-}
 
-.free{
-    background-color: #0e0a47;
+
+.bigButton2{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
     border: none;
-    font-weight: 700;
-    color: white;
-    padding: 10px 12px;
     border-radius: 5px;
+    background-color: #0e0a47;
+    color: white;
+    font-size: 13px;
 }
-.free:hover {
-    background-color: orange ;
-    transition: 0.5s;
+.bigButton1 {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #33396f;
+    font-size: 13px;
 }
-.laptop{
-    margin-left: -30%;
+.bigButton1:hover{
+    background-color: #0e0a47;
+    color: white;
 }
-
-.Rome{
-    text-align: center;
-    font-size: 40px;
-    color: #1b1642;
-    padding-top: 30px;
-}
-
-small{
-    margin-left: 30%;
-}
-.small{
-    padding-left: 80px;
+hr:hover{
+    color: gold;
 }
 
 
+.edozzierContainer2{
+    margin-top: 100px;
+    background-color: #e5ebfb;
+    padding-top: 130px;
+   padding-bottom: 50px;
+   padding-left: 40px;
+    padding-right: 40px;
+}
 
-
-
-@media  screen and (max-width:475px) {
- .here{
-    margin-left: 80px;
-   margin-top: 60px;
- }   
- body{
-    overflow-x: hidden;
- }
- #bobo{
+.links{
+    margin-left: -40px;
+   
+}
+.smart{
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 44px;
+    color: rgb(27, 22, 66)
+}
+.solution{
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgb(27, 22, 66)
+}
+.signUp{
     display: none;
- }
- .sam{
-    padding-left: 100px;
+}
 
- }
- .Smart{
-    font-size: 31px;
-    margin-left: 20px;
-    padding-top: 10px;
- }
- .Solution{
-    font-size: 30px;
-    margin-left: 10px;
- }
- .all{
-    width: 400px;
-    margin-left: 10px;
- }
- .aja{
-    width: 350px;
-    padding-top: 30px;
+@media only screen and (max-width: 475px) {
+    .aja{
+        width: 350px;
+        padding-top: 30px;
+margin-left: -20px;
+    }
+    .anime{
+        display: none;
+    }
+    .edozHere{
+        width: 100%;
+    }
+    .div1{
+        margin-bottom: 35px;
+    }
+    .button1{
+        margin-bottom: 20px;
+    }
+    .cards{
+        justify-content: center;
+        align-items: center;
+    }
+    .mark{
+        display: none;
+    }
+    .lapp{
+        margin-left: -40%;
+    }
+}
 
- }
- .Rome{
-    font-size: 30px;
- }
- .nice{
-    margin-left: -20%;
-    padding-bottom: 100%;
-    width: 400px;
- }
- .Smart{
-    padding-top: 20px;
- }
+#navbarSupportedContent{
+    margin-left: 100px;
 }
