@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.START{
+    width: 200px;
+    border: none;
+color: white;
+background-color: #0e0a47;
+border-radius: 5px;
+font-weight: 400;
+
+}
+.navbar{
+    background-color: #d0d8fc;
+}
+
+
+.navbar-brand{
+    padding-left: 15%;
+}
+.nav-items{
+    padding-left: 20%;
+}
+.here{
+    background-color: #d0d8fc;
+    color: black;
+    border: none;
+    padding: 8px 8px;
+    font-size: 13px;
+}
+.body{
+    background-color: #f7f8ff;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.Smart{
+    font-size: 50px;
+color: #1b1642;
+}
+.all{
+    padding-top: 20px;
+    font-size: 18px;
+    width: 450px;
+}
+.Solution{
+    font-size: 50px;
+    color: #1b1642;
+}
+.Request{
+    border: none;
+    padding: 10px 12px;
+    color: #1b1642;
+background-color: white;
+font-weight: 600;
+border-radius: 5px;
+}
+.Request:hover {
+    background-color: #d0d8fc ;
+}
+
+.free{
+    background-color: #0e0a47;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.free:hover {
+    background-color: orange ;
+}
+.laptop{
+    margin-left: -30%;
+}
+
+.Rome{
+    text-align: center;
+    font-size: 40px;
+    color: #1b1642;
+    padding-top: 30px;
+}
+
+small{
+    margin-left: 30%;
+}
+.small{
+    padding-left: 80px;
+}
+
+
+
+
+@media  screen and (max-width:475px) {
+ .here{
+    margin-left: 80px;
+ }   
+ .Smart{
+    font-size: 31px;
+    margin-left: 20px;
+    padding-top: 10px;
+ }
+ .Solution{
+    font-size: 30px;
+    margin-left: 10px;
+ }
+ .all{
+    width: 400px;
+    margin-left: 10px;
+ }
+ .aja{
+    width: 400px;
+    margin-left: 150px;
+    padding-top: 30px;
+ }
+}
