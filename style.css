@@ -59,6 +59,7 @@ border-radius: 5px;
 }
 .Request:hover {
     background-color: #d0d8fc ;
+    transition: 0.5;
 }
 
 .free{
@@ -71,6 +72,7 @@ border-radius: 5px;
 }
 .free:hover {
     background-color: orange ;
+    transition: 0.5s;
 }
 .laptop{
     margin-left: -30%;
