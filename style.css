@@ -4,26 +4,27 @@
     box-sizing: border-box;
 }
 
-.START{
-    width: 200px;
-    border: none;
-color: white;
-background-color: #0e0a47;
-border-radius: 5px;
-font-weight: 400;
-
+.background{
+    background-color: #f7f8ff;
+    color: #454272;
+}
+.door button{
+    background-color: #0e0a47;
+    color: white;
+    padding: 12px;
+}
+.sam ul li{
+    padding: 0 15px;
 }
 .navbar{
-    background-color: #d0d8fc;
+    justify-content: center;
+    align-content: center;
+}
+.door a{
+    align-content: center;
+    padding-top: 10px;
 }
 
-
-.navbar-brand{
-    padding-left: 15%;
-}
-.nav-items{
-    padding-left: 20%;
-}
 .here{
     background-color: #d0d8fc;
     color: black;
