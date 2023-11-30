@@ -89,9 +89,7 @@ small{
 .small{
     padding-left: 80px;
 }
-ul li {
 
-}
 
 
 
@@ -117,5 +115,8 @@ ul li {
     width: 400px;
     margin-left: 150px;
     padding-top: 30px;
+ }
+ .Rome{
+    font-size: 30px;
  }
 }
